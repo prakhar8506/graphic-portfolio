@@ -1,5 +1,7 @@
 Cover note (email)
 
-I’m Prakhar Jain, a third-year B.Tech student at S.A.T.I. Vidisha and an independent graphic / UI/UX designer. I design product interfaces, brand sites, and YouTube packaging — and ship selected work live, including Sarveio, Carrystyle, and a phone-first fintech companion (IITian Macro).
+I’m Prakhar Jain, a third-year B.Tech student at S.A.T.I. Vidisha — an independent designer who also ships full-stack (Next.js, React, Vercel). Currently building Sanmati Abhushan, a jewellery brand site, alongside shipped work like Sarveio, Carrystyle, and IITian Macro.
 
-Portfolio: instagram.com/uiux.prakhar · Drive archive in the résumé · sarveio.in · carrystyle-bags.vercel.app
+Portfolio: https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/ · instagram.com/uiux.prakhar · sarveio.in
+
+Portfolio: https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/ · instagram.com/uiux.prakhar · sarveio.in · carrystyle-bags.vercel.app

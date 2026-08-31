@@ -107,7 +107,7 @@
       position: relative;
       z-index: 1;
       flex: 1;
-      padding: 13.5mm 16mm 12mm 18mm;
+      padding: 12mm 15mm 11mm 17mm;
       display: flex;
       flex-direction: column;
     }
@@ -197,7 +197,19 @@
       font-weight: 400;
     }
 
-    .side-block { margin-bottom: 13px; }
+    .side-block { margin-bottom: 9px; }
+
+    .now {
+      margin-bottom: 10px;
+      padding: 8px 10px 9px;
+      border: 1px solid rgba(200, 245, 66, 0.38);
+      background: rgba(200, 245, 66, 0.07);
+      border-radius: 6px;
+    }
+
+    .now .project-head { margin-bottom: 1px; }
+
+    .now h2 { font-size: 12px; }
 
     .edu-school {
       font-size: 10.5px;
@@ -214,7 +226,7 @@
       color: var(--mute);
     }
 
-    .skill-group { margin-bottom: 9px; }
+    .skill-group { margin-bottom: 7px; }
 
     .skill-group h3 {
       font-size: 8.5px;
@@ -256,8 +268,8 @@
     }
 
     .project {
-      padding-bottom: 9px;
-      margin-bottom: 9px;
+      padding-bottom: 7px;
+      margin-bottom: 7px;
       border-bottom: 1px solid var(--line);
     }
 
@@ -378,14 +390,15 @@
       <header>
         <div class="kicker">
           <p class="kicker-tags">Graphic · UI/UX · Web · App · Video</p>
-          <p class="kicker-loc">Vidisha, India</p>
+          <p class="kicker-loc">Bhopal, India</p>
         </div>
         <h1>Prakhar <span>Jain</span></h1>
-        <p class="role">Graphic, UI/UX &amp; Product Designer — independent practice</p>
+        <p class="role">Graphic, UI/UX &amp; Product Designer — designs and ships full-stack</p>
         <nav class="contact">
           <a href="mailto:prakhargdg@gmail.com">prakhargdg@gmail.com</a>
           <a href="tel:+917400501247">+91 74005 01247</a>
           <a href="https://www.instagram.com/uiux.prakhar" target="_blank" rel="noreferrer">instagram.com/uiux.prakhar</a>
+          <a href="https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/" target="_blank" rel="noreferrer">Portfolio</a>
           <a href="https://drive.google.com/drive/folders/1lUQTxF9fPRQEasSAg7T2UO8wdvxBt9RH?usp=sharing" target="_blank" rel="noreferrer">Drive · design archive</a>
         </nav>
       </header>
@@ -397,7 +410,7 @@
           <section class="side-block">
             <p class="label">Profile</p>
             <p class="profile">
-              Third-year B.Tech student at S.A.T.I. Vidisha. Designs graphic systems, product UI, websites, web-apps, mobile apps, and YouTube packaging — then ships selected work live. Strongest where dense information has to feel considered: fintech desks, brand sites, and weekly video covers.
+              Third-year B.Tech student at S.A.T.I. Vidisha. Designs graphic systems, product UI, and motion — then builds and ships the product full-stack (Next.js, React, TypeScript, Vercel). Strongest where dense information has to feel considered: fintech desks, brand sites, and weekly video covers.
             </p>
           </section>
 
@@ -424,47 +437,61 @@
             <p class="label">Skills</p>
             <div class="skill-group">
               <h3>Graphic</h3>
-              <p>Thumbnails, type-led covers, brand frames, social systems</p>
+              <p>Brand identity, art direction, typography, editorial layouts, thumbnails, posters, social systems</p>
             </div>
             <div class="skill-group">
               <h3>UI / UX</h3>
-              <p>Mobile apps, dark-mode fintech, glassmorphism, dense-data IA</p>
+              <p>Design systems &amp; tokens, Figma variables, Auto Layout, user flows, wireframes, prototyping, micro-interactions, accessibility, AI-assisted UX, conversational UI, mobile-first, dark/light mode, glassmorphism, information architecture, design-to-dev handoff</p>
             </div>
             <div class="skill-group">
               <h3>Web &amp; app</h3>
-              <p>Product sites, fashion e-commerce, dashboards, trading terminals</p>
+              <p>Marketing sites, fashion e-commerce, SaaS pages, dashboards, trading terminals, data visualization, responsive web</p>
             </div>
             <div class="skill-group">
-              <h3>Video</h3>
-              <p>Edit, grade, lower-thirds, YouTube packaging</p>
+              <h3>Full-stack</h3>
+              <p>Next.js, React, TypeScript, Tailwind, APIs, Vercel, Capacitor (web → Android), end-to-end product from Figma to live URL</p>
             </div>
-            <p class="tools">Figma · compositing · professional NLE · Next.js / Vercel</p>
+            <div class="skill-group">
+              <h3>Video &amp; motion</h3>
+              <p>Edit, colour grade, motion, lower-thirds, YouTube packaging</p>
+            </div>
+            <p class="tools">Figma · Photoshop · Illustrator · DaVinci Resolve · After Effects · Premiere Pro · Cursor · Framer · Spline</p>
           </section>
 
           <section>
             <p class="label">Live</p>
             <div class="links">
+              <a href="https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/" target="_blank" rel="noreferrer">Portfolio<span>graphic-portfolio · Vercel</span></a>
               <a href="https://www.sarveio.in/" target="_blank" rel="noreferrer">sarveio.in<span>Restaurant OS</span></a>
               <a href="https://carrystyle-bags.vercel.app/" target="_blank" rel="noreferrer">carrystyle-bags.vercel.app<span>Manufacturing brand</span></a>
+              <a href="https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/" target="_blank" rel="noreferrer">Sanmati Abhushan<span>Jewellery brand · now</span></a>
             </div>
           </section>
         </aside>
 
         <main>
-          <p class="label">Selected work</p>
+          <p class="label">Currently</p>
+          <article class="now">
+            <div class="project-head">
+              <h2>Sanmati Abhushan</h2>
+              <p class="tags">Brand site · In progress</p>
+            </div>
+            <p class="url"><a href="https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/">sanmati · vercel.app</a></p>
+            <p class="lede">Jewellery brand website — designing and building the full site end-to-end (identity, UI, and full-stack on Vercel). Preview is live; work in progress.</p>
+          </article>
+
+          <p class="label" style="margin-top: 11px;">Selected work</p>
 
           <article class="project">
             <div class="project-head">
               <h2>IITian Macro</h2>
               <p class="tags">App · Web-app · Fintech</p>
             </div>
-            <p class="lede">Phone-first companion for a professional macro desk. Dark charcoal, lime accent, glass navigation — dense market data that still reads as a product, not a spreadsheet.</p>
+            <p class="lede">Phone-first companion for a professional macro desk. Dark charcoal, lime accent, glass navigation — dense market data that still reads as a product.</p>
             <ul>
-              <li>Home desk: live ticker, market-bias gauge (7-tier, 31 factors), insight cards, AI assistant FAB</li>
-              <li>TradeAI paper terminal: consensus boards, event-risk calendar, Crypto / Metals / Energy / US Stocks</li>
-              <li>Explore sheet: Trading, Core, and Economy desks behind a floating five-tab bar</li>
+              <li>Home desk, market-bias gauge, TradeAI paper terminal, Explore desks, floating tab bar</li>
+              <li>Designed and built full-stack: Next.js + Capacitor Android pitch APK. Education only · paper trading.</li>
             </ul>
-            <p class="note">Shipped as a Next.js + Capacitor Android pitch APK. Education only · paper trading — not a broker.</p>
           </article>
 
           <article class="project">
@@ -490,7 +517,7 @@
               <h2>Brand &amp; product UI</h2>
               <p class="tags">Website · App</p>
             </div>
-            <p class="lede">Streetwear e-commerce for RAIMENT / N°10 LAB. Music-streaming mobile UI (dark, purple glow, glass dock). Google Developer Groups landing and a light-mode CRM analytics dashboard. Sanmati — web project in progress on Vercel.</p>
+            <p class="lede">Streetwear e-commerce for RAIMENT / N°10 LAB. Music-streaming mobile UI (dark, purple glow, glass dock). Google Developer Groups landing and a light-mode CRM analytics dashboard.</p>
           </article>
 
           <article class="project">

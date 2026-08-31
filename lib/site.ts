@@ -5,7 +5,7 @@ export const site = {
   title: "Prakhar Jain | Graphic, UI/UX, Web & App Design",
   description:
     "Prakhar Jain — third-year B.Tech student at S.A.T.I. Vidisha. Graphic, UI/UX, website, web-app, video and mobile app designer.",
-  location: "Vidisha · S.A.T.I.",
+  location: "Bhopal · S.A.T.I.",
   email: "prakhargdg@gmail.com",
   phone: "+917400501247",
   phoneDisplay: "7400501247",

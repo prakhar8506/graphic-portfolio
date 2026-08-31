@@ -1,14 +1,15 @@
 PRAKHAR JAIN
-Graphic, UI/UX & Product Designer
-Vidisha, India
+Graphic, UI/UX & Product Designer — designs and ships full-stack
+Bhopal, India
 
 Email: prakhargdg@gmail.com
 Phone: +91 74005 01247
 Instagram: https://www.instagram.com/uiux.prakhar
+Portfolio: https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/
 Design archive: https://drive.google.com/drive/folders/1lUQTxF9fPRQEasSAg7T2UO8wdvxBt9RH?usp=sharing
 
 PROFILE
-Third-year B.Tech student at S.A.T.I. Vidisha. Independent designer working across graphic systems, product UI, websites, web-apps, mobile apps, and YouTube packaging — then ships selected work live. Strongest where dense information has to feel considered: fintech desks, brand sites, and weekly video covers.
+Third-year B.Tech student at S.A.T.I. Vidisha. Designs graphic systems, product UI, and motion — then builds and ships the product full-stack (Next.js, React, TypeScript, Vercel). Strongest where dense information has to feel considered: fintech desks, brand sites, and weekly video covers.
 
 EDUCATION
 Samrat Ashok Technological Institute (S.A.T.I.), Vidisha
@@ -20,36 +21,42 @@ Independent designer — ongoing
 Shipped product websites
 YouTube, weekly analysis
 
+CURRENTLY
+Sanmati Abhushan — jewellery brand website (in progress)
+https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/
+Designing and building the full site end-to-end (identity, UI, and full-stack on Vercel).
+
 SELECTED WORK
 
 IITian Macro — App UI, Web-app, Fintech
 Phone-first companion for a professional macro desk. Dark charcoal, lime accent, glass navigation.
-- Home desk: live ticker, market-bias gauge (7-tier, 31 factors), insight cards, AI assistant FAB
-- TradeAI paper terminal: consensus boards, event-risk calendar, asset filters (Crypto / Metals / Energy / US Stocks)
-- Explore sheet: Trading, Core, and Economy desks behind a floating five-tab bar
-Shipped as a Next.js + Capacitor Android pitch APK. Education only; paper trading — not a broker.
+- Home desk, market-bias gauge, TradeAI paper terminal, Explore desks, floating tab bar
+- Designed and built full-stack: Next.js + Capacitor Android pitch APK. Education only; paper trading.
 
 Sarveio — Website, Product UI
 https://www.sarveio.in/
-Public site for a restaurant OS: one QR scan, AR dish preview on the table, gesture order, live kitchen display. Dark hospitality marketing with cinematic hero, feature grid, three-step journey, and pricing.
+Public site for a restaurant OS: one QR scan, AR dish preview on the table, gesture order, live kitchen display.
 
 Carrystyle — Website, Brand
 https://carrystyle-bags.vercel.app/
-Brand site for a Mumbai / NCR bag factory (canvas totes, laminated jute, executive gift bags) at factory scale. Typographic wordmark, collection-to-quote flow, industrial-luxury B2B tone.
+Brand site for a Mumbai / NCR bag factory. Typographic wordmark, collection-to-quote flow, industrial-luxury B2B tone.
 
 Brand & product UI — Website, App
-Streetwear e-commerce for RAIMENT / N°10 LAB. Music-streaming mobile UI (dark, purple glow, glass dock). Google Developer Groups landing and a light-mode CRM analytics dashboard. Sanmati — web project in progress on Vercel.
+Streetwear e-commerce for RAIMENT / N°10 LAB. Music-streaming mobile UI. Google Developer Groups landing and a CRM analytics dashboard.
 
 YouTube packaging — Thumbnails, Edit
-Weekly markets show: type-led finance thumbnails, studio direction, edit and grade. Face + type + one accent, built to read at 120px and still hold at 1920.
+Weekly markets show: type-led finance thumbnails, studio direction, edit and grade.
 
 SKILLS
-Graphic: Thumbnails, type-led covers, brand frames, social systems
-UI / UX: Mobile apps, dark-mode fintech, glassmorphism, dense-data information architecture
-Web & app: Product sites, fashion e-commerce, dashboards, trading terminals
-Video: Edit, grade, lower-thirds, YouTube packaging
-Tools: Figma, compositing, professional NLE, Next.js / Vercel
+Graphic: Brand identity, art direction, typography, editorial layouts, thumbnails, posters, social systems
+UI / UX: Design systems & tokens, Figma variables, Auto Layout, user flows, wireframes, prototyping, micro-interactions, accessibility, AI-assisted UX, conversational UI, mobile-first, dark/light mode, glassmorphism, information architecture, design-to-dev handoff
+Web & app: Marketing sites, fashion e-commerce, SaaS pages, dashboards, trading terminals, data visualization, responsive web
+Full-stack: Next.js, React, TypeScript, Tailwind, APIs, Vercel, Capacitor (web → Android), end-to-end from Figma to live URL
+Video & motion: Edit, colour grade, motion, lower-thirds, YouTube packaging
+Tools: Figma, Photoshop, Illustrator, DaVinci Resolve, After Effects, Premiere Pro, Cursor, Framer, Spline
 
 LIVE
+https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/
 https://www.sarveio.in/
 https://carrystyle-bags.vercel.app/
+https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/
