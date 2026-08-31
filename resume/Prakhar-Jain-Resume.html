@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prakhar Jain — Graphic, UI/UX &amp; Product Designer</title>
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url("fonts/inter-400.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: Inter;
+      src: url("fonts/inter-500.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: Inter;
+      src: url("fonts/inter-600.woff2") format("woff2");
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: Inter;
+      src: url("fonts/inter-700.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: Inter;
+      src: url("fonts/inter-800.woff2") format("woff2");
+      font-weight: 800;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --ink: #0b0c0a;
+      --paper: #f4f3ee;
+      --mute: #9a9a90;
+      --line: rgba(244, 243, 238, 0.14);
+      --lime: #c8f542;
+      --lime-dim: rgba(200, 245, 66, 0.14);
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: #111;
+    }
+
+    body {
+      font-family: Inter, "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--paper);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: geometricPrecision;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    a:hover { color: var(--lime); }
+
+    .page {
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      background: var(--ink);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .wash {
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 42%;
+      background: radial-gradient(120% 80% at 0% 0%, #24301c 0%, transparent 62%),
+                  linear-gradient(180deg, #1a2414 0%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .rule-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      background: var(--lime);
+    }
+
+    .inner {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      padding: 13.5mm 16mm 12mm 18mm;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kicker {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 11px;
+    }
+
+    .kicker-tags {
+      font-size: 8px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--lime);
+    }
+
+    .kicker-loc {
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--mute);
+    }
+
+    h1 {
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -0.045em;
+      line-height: 0.92;
+      color: #fafaf6;
+    }
+
+    h1 span {
+      display: block;
+      color: var(--lime);
+    }
+
+    .role {
+      margin-top: 10px;
+      font-size: 12.5px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--paper);
+    }
+
+    .contact {
+      margin-top: 11px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px 16px;
+      font-size: 9.5px;
+      font-weight: 500;
+      color: var(--mute);
+    }
+
+    .contact a { color: var(--paper); border-bottom: 0.5px solid var(--line); padding-bottom: 1px; }
+    .contact a:hover { border-color: var(--lime); }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 13px 0 12px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 54mm 1fr;
+      gap: 0 9mm;
+      flex: 1;
+    }
+
+    .label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--lime);
+      margin-bottom: 7px;
+    }
+
+    .profile {
+      font-size: 9.4px;
+      line-height: 1.48;
+      color: #d8d8d0;
+      font-weight: 400;
+    }
+
+    .side-block { margin-bottom: 13px; }
+
+    .edu-school {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      color: #fafaf6;
+    }
+
+    .edu-meta {
+      margin-top: 4px;
+      font-size: 9px;
+      line-height: 1.45;
+      color: var(--mute);
+    }
+
+    .skill-group { margin-bottom: 9px; }
+
+    .skill-group h3 {
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--paper);
+      margin-bottom: 2px;
+    }
+
+    .skill-group p {
+      font-size: 8.6px;
+      line-height: 1.4;
+      color: var(--mute);
+    }
+
+    .tools {
+      margin-top: 2px;
+      font-size: 8.5px;
+      line-height: 1.4;
+      color: #c8c8be;
+    }
+
+    .links a {
+      display: block;
+      font-size: 9px;
+      font-weight: 500;
+      color: var(--paper);
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+
+    .links span {
+      display: block;
+      font-size: 7.5px;
+      font-weight: 500;
+      color: var(--mute);
+      letter-spacing: 0.02em;
+    }
+
+    .project {
+      padding-bottom: 9px;
+      margin-bottom: 9px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .project:last-of-type {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .project-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .project-head h2 {
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #fafaf6;
+    }
+
+    .tags {
+      font-size: 7.5px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--lime);
+      white-space: nowrap;
+    }
+
+    .url {
+      display: inline-block;
+      margin-top: 2px;
+      font-size: 8px;
+      font-weight: 500;
+      color: var(--mute);
+      letter-spacing: 0.01em;
+    }
+
+    .url a { color: var(--mute); }
+    .url a:hover { color: var(--lime); }
+
+    .lede {
+      margin-top: 4px;
+      font-size: 9.3px;
+      line-height: 1.42;
+      color: #d4d4cc;
+    }
+
+    ul {
+      margin-top: 4px;
+      padding-left: 11px;
+    }
+
+    li {
+      font-size: 9px;
+      line-height: 1.4;
+      color: var(--mute);
+      margin-bottom: 2px;
+    }
+
+    li::marker { color: var(--lime); }
+
+    .note {
+      margin-top: 3px;
+      font-size: 8px;
+      color: #6e6e66;
+      font-style: normal;
+    }
+
+    .foot {
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 7.5px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--mute);
+    }
+
+    .foot strong {
+      color: var(--lime);
+      font-weight: 700;
+    }
+
+    @media print {
+      html, body {
+        background: var(--ink);
+        width: 210mm;
+        height: 297mm;
+      }
+      .page {
+        margin: 0;
+        box-shadow: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    @media screen {
+      body { padding: 24px 0 48px; }
+      .page {
+        box-shadow: 0 24px 80px rgba(0,0,0,0.45);
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    <div class="wash" aria-hidden="true"></div>
+    <div class="rule-left" aria-hidden="true"></div>
+    <div class="inner">
+      <header>
+        <div class="kicker">
+          <p class="kicker-tags">Graphic · UI/UX · Web · App · Video</p>
+          <p class="kicker-loc">Vidisha, India</p>
+        </div>
+        <h1>Prakhar <span>Jain</span></h1>
+        <p class="role">Graphic, UI/UX &amp; Product Designer — independent practice</p>
+        <nav class="contact">
+          <a href="mailto:prakhargdg@gmail.com">prakhargdg@gmail.com</a>
+          <a href="tel:+917400501247">+91 74005 01247</a>
+          <a href="https://www.instagram.com/uiux.prakhar" target="_blank" rel="noreferrer">instagram.com/uiux.prakhar</a>
+          <a href="https://drive.google.com/drive/folders/1lUQTxF9fPRQEasSAg7T2UO8wdvxBt9RH?usp=sharing" target="_blank" rel="noreferrer">Drive · design archive</a>
+        </nav>
+      </header>
+
+      <div class="divider"></div>
+
+      <div class="layout">
+        <aside>
+          <section class="side-block">
+            <p class="label">Profile</p>
+            <p class="profile">
+              Third-year B.Tech student at S.A.T.I. Vidisha. Designs graphic systems, product UI, websites, web-apps, mobile apps, and YouTube packaging — then ships selected work live. Strongest where dense information has to feel considered: fintech desks, brand sites, and weekly video covers.
+            </p>
+          </section>
+
+          <section class="side-block">
+            <p class="label">Education</p>
+            <p class="edu-school">Samrat Ashok Technological Institute</p>
+            <p class="edu-meta">
+              S.A.T.I., Vidisha<br />
+              B.Tech · Third year · Expected 2027<br />
+              Affiliated with RGPV
+            </p>
+          </section>
+
+          <section class="side-block">
+            <p class="label">Practice</p>
+            <p class="edu-meta">
+              Independent designer — ongoing<br />
+              Shipped product websites<br />
+              YouTube, weekly analysis
+            </p>
+          </section>
+
+          <section class="side-block">
+            <p class="label">Skills</p>
+            <div class="skill-group">
+              <h3>Graphic</h3>
+              <p>Thumbnails, type-led covers, brand frames, social systems</p>
+            </div>
+            <div class="skill-group">
+              <h3>UI / UX</h3>
+              <p>Mobile apps, dark-mode fintech, glassmorphism, dense-data IA</p>
+            </div>
+            <div class="skill-group">
+              <h3>Web &amp; app</h3>
+              <p>Product sites, fashion e-commerce, dashboards, trading terminals</p>
+            </div>
+            <div class="skill-group">
+              <h3>Video</h3>
+              <p>Edit, grade, lower-thirds, YouTube packaging</p>
+            </div>
+            <p class="tools">Figma · compositing · professional NLE · Next.js / Vercel</p>
+          </section>
+
+          <section>
+            <p class="label">Live</p>
+            <div class="links">
+              <a href="https://www.sarveio.in/" target="_blank" rel="noreferrer">sarveio.in<span>Restaurant OS</span></a>
+              <a href="https://carrystyle-bags.vercel.app/" target="_blank" rel="noreferrer">carrystyle-bags.vercel.app<span>Manufacturing brand</span></a>
+            </div>
+          </section>
+        </aside>
+
+        <main>
+          <p class="label">Selected work</p>
+
+          <article class="project">
+            <div class="project-head">
+              <h2>IITian Macro</h2>
+              <p class="tags">App · Web-app · Fintech</p>
+            </div>
+            <p class="lede">Phone-first companion for a professional macro desk. Dark charcoal, lime accent, glass navigation — dense market data that still reads as a product, not a spreadsheet.</p>
+            <ul>
+              <li>Home desk: live ticker, market-bias gauge (7-tier, 31 factors), insight cards, AI assistant FAB</li>
+              <li>TradeAI paper terminal: consensus boards, event-risk calendar, Crypto / Metals / Energy / US Stocks</li>
+              <li>Explore sheet: Trading, Core, and Economy desks behind a floating five-tab bar</li>
+            </ul>
+            <p class="note">Shipped as a Next.js + Capacitor Android pitch APK. Education only · paper trading — not a broker.</p>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h2>Sarveio</h2>
+              <p class="tags">Website · Product UI</p>
+            </div>
+            <p class="url"><a href="https://www.sarveio.in/">sarveio.in</a></p>
+            <p class="lede">Public site for a restaurant OS: one QR scan, AR dish preview on the table, gesture order, live kitchen display. Dark hospitality marketing — cinematic hero, feature grid, three-step journey, pricing.</p>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h2>Carrystyle</h2>
+              <p class="tags">Website · Brand</p>
+            </div>
+            <p class="url"><a href="https://carrystyle-bags.vercel.app/">carrystyle-bags.vercel.app</a></p>
+            <p class="lede">Brand site for a Mumbai / NCR bag factory — canvas totes, laminated jute, executive gift bags at factory scale. Typographic wordmark, collection-to-quote flow, industrial-luxury B2B tone.</p>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h2>Brand &amp; product UI</h2>
+              <p class="tags">Website · App</p>
+            </div>
+            <p class="lede">Streetwear e-commerce for RAIMENT / N°10 LAB. Music-streaming mobile UI (dark, purple glow, glass dock). Google Developer Groups landing and a light-mode CRM analytics dashboard. Sanmati — web project in progress on Vercel.</p>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h2>YouTube packaging</h2>
+              <p class="tags">Thumbnails · Edit</p>
+            </div>
+            <p class="lede">Weekly markets show: type-led finance thumbnails, studio direction, edit and grade. Face + type + one accent, built to read at 120px and still hold at 1920.</p>
+          </article>
+        </main>
+      </div>
+
+      <footer class="foot">
+        <p><strong>Prakhar Jain</strong> · Independent designer</p>
+        <p>One page · 2026</p>
+      </footer>
+    </div>
+  </article>
+</body>
+</html>

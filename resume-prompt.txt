@@ -1,0 +1,57 @@
+You are an expert resume writer for designers who also ship product.
+
+Write a one-page, ATS-friendly resume for Prakhar Jain applying to roles in graphic design, UI/UX, website design, web-app design, iOS/Android app design, and video/thumbnail design. Output in clean Markdown first, then a version I can paste into Google Docs (simple headings, no tables that break ATS). Do not invent employers, internships, GPA, or tools I did not list. If something is missing, leave a clearly marked [TO CONFIRM] rather than fabricating it.
+
+IDENTITY
+- Full name: Prakhar Jain
+- Role line: Graphic / UI-UX / Web / App / Motion Designer
+- Location: Vidisha, Madhya Pradesh, India
+- Education: Third-year B.Tech, Samrat Ashok Technological Institute (S.A.T.I.), Vidisha
+- Email: prakhargdg@gmail.com
+- Phone: +91 74005 01247
+- Instagram: https://www.instagram.com/uiux.prakhar
+- Full work folder: https://drive.google.com/drive/folders/1lUQTxF9fPRQEasSAg7T2UO8wdvxBt9RH?usp=sharing
+- Portfolio site: (this site — leave [TO CONFIRM] if the public URL is not set)
+
+POSITIONING (use this voice, do not sound like a corporate intern)
+Independent designer who works across brand, product interfaces, shipped websites, native-feeling app UI, YouTube thumbnails and video. Student who already has live product sites, not only classroom mockups.
+
+LIVE WEB
+- Sarveio — https://www.sarveio.in/ — restaurant OS marketing site (QR menus, AR dish preview, KDS, analytics). Website / product narrative.
+- Carrystyle — https://carrystyle-bags.vercel.app/ — high-volume bag manufacturing brand site (product, MOQ, quote). Website / e-com art direction.
+- Sanmati — https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/ — current web project in progress.
+
+SELECTED WORK (treat as projects, not fake jobs)
+- IITian Macro — dark fintech product UI: home desk, market bias gauge, TradeAI terminal, Explore IA, lime-green system, bottom nav. UI/UX + web-app + mobile.
+- Raiment / LÄB N°10 — streetwear e-commerce: serif hero, lookbook carousel, rack still-life. Website + art direction.
+- Xapel — ride-share / carpool app: dark onboarding, emerald CTA, rider map. iOS/Android app design.
+- Sound — music discovery app: glassmorphism, playlists, floating dock. App UI.
+- GDG landing + CRM analytics desk — campaign site and soft-UI dashboard. Website + web-app.
+- YouTube thumbnails & video — “Bond Yield / U.S. debt / BTC” frame; “Weekly Analysis” studio shot with charts and edit timeline on screen. Graphic design + video editing.
+
+SKILLS TO LIST (group, do not dump)
+- Graphic: identity, editorial layouts, thumbnails, art direction
+- UI/UX: product flows, design systems, dark-mode fintech and consumer apps
+- Web: marketing sites, e-com, landing pages (Sarveio, Carrystyle, Sanmati)
+- Web apps / dashboards: data-dense cards, terminals, CRM
+- Mobile: iOS and Android UI (IITian Macro, Xapel, Sound)
+- Motion / video: YouTube editing, colour, thumbnail systems
+- Tools: [TO CONFIRM] — I use Figma and typical Adobe / editing tools; only list what I actually use if I reply. If I don’t reply, write “Figma · Photoshop · Illustrator · Premiere / DaVinci (video)” as a cautious default and mark it [TO CONFIRM].
+
+STRUCTURE
+1. Name + one-line specialty + contacts (email, phone, Instagram, Drive, live sites)
+2. 3-line summary (student + shipped work + range)
+3. Selected projects (6–8 bullets max, each: name — outcome/what I designed — stack/role). Include live URLs where they exist.
+4. Skills
+5. Education
+6. Optional: Languages (English, Hindi) unless I say otherwise
+
+TONE AND RULES
+- Senior-junior: confident, specific, no “passionate about design” filler.
+- No “we are prakhar” / studio-collective language. I am one person.
+- No fake metrics (do not invent % growth, users, or revenue).
+- Prefer verbs: designed, art-directed, shipped, edited, prototyped.
+- Keep it to one page if printed at A4.
+- End with a short “Links” line repeating Instagram, Drive, Sarveio, Carrystyle, Sanmati.
+
+After the resume, add a 4-bullet “how to tailor this in 2 minutes” for (a) UI/UX internship, (b) graphic/thumbnail freelance, (c) web/front-end-adjacent design role.
