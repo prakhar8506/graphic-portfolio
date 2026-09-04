@@ -23,7 +23,7 @@ YouTube, weekly analysis
 
 CURRENTLY
 Sanmati Abhushan — jewellery brand website (in progress)
-https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/
+https://sanmati-web.vercel.app/
 Designing and building the full site end-to-end (identity, UI, and full-stack on Vercel).
 
 SELECTED WORK
@@ -59,4 +59,4 @@ LIVE
 https://graphic-portfolio-6ul37p2xv-prakhar-c41f.vercel.app/
 https://www.sarveio.in/
 https://carrystyle-bags.vercel.app/
-https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/
+https://sanmati-web.vercel.app/

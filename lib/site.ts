@@ -28,7 +28,7 @@ export const site = {
     },
     {
       name: "Sanmati Abhushan",
-      href: "https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/",
+      href: "https://sanmati-web.vercel.app/",
       tag: "Jewellery brand site · in progress",
     },
   ],

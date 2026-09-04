@@ -74,7 +74,7 @@ export const works: Work[] = [
     year: "2026",
     image: "",
     aspect: "mid",
-    href: "https://sanmati-i6nelutr9-prakhar-c41f.vercel.app/",
+    href: "https://sanmati-web.vercel.app/",
     services: ["Website design", "Web app", "UI/UX"],
     body: [
       "A live jewellery-brand web build for Sanmati Abhushan, currently in progress on Vercel — product pages, brand type and a conversion path still being shaped.",
